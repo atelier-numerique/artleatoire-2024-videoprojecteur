@@ -5,85 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projet Art-léatoire 2024</title>
     <style>
-        body, html, .conteneur {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        #oeuvre {
-            background-color: lightgreen;
-            flex: 2;
-            padding: 20px;
-            box-sizing: border-box;
-            text-align:center;
-        }
-
-      .oeuvre {
-
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      #image {
         border-radius:8px;
       }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <div class="conteneur">
-    <div>
-      <h1 class="font-monospace text-center fw-bold">Projet Art-léatoire 2024</h1>
-      <h2 class="font-monospace text-danger text-center fw-bold">NSI Première</h2>
-    </div>
-
-    <div id="oeuvre"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/101.gif" class="oeuvre" alt="..." /></div>
-    </div>
-
-    <!--
-    <div class="text-center">
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/104.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/105.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/106.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/107.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/108.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/109.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/110.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/111.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/112.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/113.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/114.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/115.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/116.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/117.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/118.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/119.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/201.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/202.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/203.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/204.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/206.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/207.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/208.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/209.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/210.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/211.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/212.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/213.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/214.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/215.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/216.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/217.gif" class="w-100" alt="..." /></div>
-        <div class="frame"><img src="https://www.ateliernumerique.net/projet-artleatoire-2024/218.gif" class="w-100" alt="..." /></div>
-    </div>
-  -->
-
+    <table style="height:100%;width:100%">
+      <tr>
+        <td class="p-5" nowrap>
+          <h6 class="font-monospace text-center fw-bold m-0 p-0">Projet</h6>
+          <h1 class="font-monospace text-center fw-bold m-0 p-0">Art-léatoire</h1>
+          <h4 class="font-monospace text-secondary text-center fw-bold">2024</h4>
+          <h2 class="font-monospace text-danger text-center fw-bold">NSI Première</h2>
+          <div class="font-monospace text-muted text-center">PYTHON + PILLOW + RANDOM</div>
+        </td>
+        <td class="p-3 text-center">
+          <img id="image" src="https://www.ateliernumerique.net/projet-artleatoire-2024/101.gif" style="height:100%" />
+        </td>
+      </tr>
+    </table>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
       setInterval(function() {
-        var oeuvres=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119];
-        document.getElementById("oeuvre").innerHTML = '<img src="https://www.ateliernumerique.net/projet-artleatoire-2024/'+oeuvres[Math.floor(Math.random() * oeuvres.length)]+'.gif" class="oeuvre" alt="..." />';
+        var oeuvres=[101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 201, 202, 203, 204, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218];
+        document.getElementById("image").src = 'https://www.ateliernumerique.net/projet-artleatoire-2024/'+oeuvres[Math.floor(Math.random() * oeuvres.length)]+'.gif';
       }, 10000);
     </script>
-  
-  
-  </body>
+</body>
 </html>
