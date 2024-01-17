@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projet Art-léatoire 2024</title>
     <style>
-      #oeuvre {
-        height:100%;
-        text-align:center;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
 
-      }
+        #oeuvre {
+            background-color: lightgreen;
+            flex: 1; /* Le deuxième div prend tout l'espace restant */
+            padding: 20px;
+            box-sizing: border-box;
+            text-align:center;
+        }
+
+
       .oeuvre {
-        height:90%;
+        height:95%;
         border-radius:8px;
       }
     </style>
